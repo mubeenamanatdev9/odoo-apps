@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_move_form_inherit_analytic_distribution" model="ir.ui.view">
+            <field name="name">account.move.form.inherit.analytic.distribution</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='journal_div']" position="after">
+                    <label for="analytic_distribution_for_all"/>
+                    <div class="o_row">
+                      <field name="analytic_distribution_for_all" widget="analytic_distribution" string="Analytic" />
+                      <button name="action_analytic_account_set" type="object" string="Update Lines">
+                            </button>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
