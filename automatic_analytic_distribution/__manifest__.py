@@ -1,21 +1,24 @@
 {
-    'name': 'automatic_analytic_distribution',
+    'name': 'Automatic Analytic Distribution',
 
     'summary': 'automatic_analytic_distribution',
 
     'version': '1.0.0.0.0',
 
-    'author': 'Mubeen Amanat (mubeenamanat.dev@gmail.com)',
+    'author': 'Mubeen Amanat',
 
     "maintainer": "Mubeen Amanat",
 
     "website": "https://mubeenamanat.com",
 
+    'support': 'mubeenamanat.dev@gmail.com',
+
     'category': 'Accounting/Accounting',
 
-    'description': 'automatic_analytic_distribution',
+    'description': 'It Allows You to Put Automatic Analytic Distrbution Value on Invoices lines, Bills. Just Select Once and update on all lines',
 
     'depends': ['account'],
+    'images' : ['static/description/imgs/img.png'],
 
     'sequence': 10,
     'data': [
