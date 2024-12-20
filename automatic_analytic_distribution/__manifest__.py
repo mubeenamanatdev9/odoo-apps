@@ -18,7 +18,7 @@
     'description': 'It Allows You to Put Automatic Analytic Distrbution Value on Invoices lines, Bills. Just Select Once and update on all lines',
 
     'depends': ['account'],
-    'images' : ['static/description/imgs/img.png'],
+    'images' : ['static/description/assets/img/thumbnail.png'],
 
     'sequence': 10,
     'data': [
