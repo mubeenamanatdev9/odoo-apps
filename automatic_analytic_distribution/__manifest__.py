@@ -40,7 +40,7 @@
 
     'auto_install': False,
 
-    'price': 1.00,
+    'price': 5.00,
 
     "currency": "USD",
 
